@@ -50,10 +50,10 @@
     <!-- link font google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Vayu+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="<?= base_url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap') ?>" rel="stylesheet">
+    <link href="<?= base_url('https://fonts.googleapis.com/css2?family=Vayu+Sans:wght@400;700&display=swap') ?>" rel="stylesheet">
+    <link href="<?= base_url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap') ?>" rel="stylesheet">
+    <link href="<?= base_url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap') ?>" rel="stylesheet">
 
     <!-- Page title -->
     <title>SMK | Al-Hilaal Kamal</title>
@@ -256,21 +256,21 @@
                         <div class="scroll-revealed relative z-10 mx-auto max-w-[845px]">
                             <figure class="mt-16">
                                 <img
-                                    src="./assets/img/sampul.jpg"
+                                    src="<?= base_url('/assets/img/sampul.jpg') ?>"
                                     alt="Hero image"
                                     class="mx-auto max-w-full rounded-t-xl rounded-tr-xl" />
                             </figure>
 
                             <div class="absolute -left-9 bottom-0 z-[-1]">
                                 <img
-                                    src="./assets/img/dots.svg"
+                                    src="<?= base_url('./assets/img/dots.svg') ?>"
                                     alt
                                     class="w-[120px] opacity-75" />
                             </div>
 
                             <div class="absolute -right-6 -top-6 z-[-1]">
                                 <img
-                                    src="./assets/img/dots.svg"
+                                    src="<?= base_url('./assets/img/dots.svg') ?>"
                                     alt
                                     class="w-[120px] opacity-75" />
                             </div>
@@ -522,7 +522,7 @@
                             <div
                                 class="relative overflow-hidden w-full aspect-[4/3] rounded-xl">
                                 <img
-                                    src="./assets/img/portfolio/portfolio-1.jpg"
+                                    src="<?= base_url('./assets/img/portfolio/portfolio-1.jpg') ?>"
                                     alt="Graphics Design"
                                     class="w-full h-full object-cover" />
                                 <div
@@ -564,7 +564,7 @@
                             <div
                                 class="relative overflow-hidden w-full aspect-[4/3] rounded-xl">
                                 <img
-                                    src="./assets/img/portfolio/portfolio-2.jpg"
+                                    src="<?= base_url('./assets/img/portfolio/portfolio-2.jpg') ?>"
                                     alt="Web Development"
                                     class="w-full h-full object-cover" />
                                 <div
@@ -606,7 +606,7 @@
                             <div
                                 class="relative overflow-hidden w-full aspect-[4/3] rounded-xl">
                                 <img
-                                    src="./assets/img/portfolio/portfolio-3.jpg"
+                                    src="<?= base_url('./assets/img/portfolio/portfolio-3.jpg') ?>"
                                     alt="App Development"
                                     class="w-full h-full object-cover" />
                                 <div
@@ -648,7 +648,7 @@
                             <div
                                 class="relative overflow-hidden w-full aspect-[4/3] rounded-xl">
                                 <img
-                                    src="./assets/img/portfolio/foto3.jpg"
+                                    src="<?= base_url('./assets/img/portfolio/foto3.jpg') ?>"
                                     alt="Digital Marketing"
                                     class="w-full h-full object-cover" />
                                 <div
@@ -689,7 +689,7 @@
                             <div
                                 class="relative overflow-hidden w-full aspect-[4/3] rounded-xl">
                                 <img
-                                    src="./assets/img/portfolio/foto1.jpg"
+                                    src="<?= base_url('./assets/img/portfolio/foto1.jpg') ?>"
                                     alt="Digital Marketing"
                                     class="w-full h-full object-cover" />
                                 <div
@@ -730,7 +730,7 @@
                             <div
                                 class="relative overflow-hidden w-full aspect-[4/3] rounded-xl">
                                 <img
-                                    src="./assets/img/portfolio/foto1.jpg"
+                                    src="<?= base_url('./assets/img/portfolio/foto1.jpg') ?>"
                                     alt="Digital Marketing"
                                     class="w-full h-full object-cover" />
                                 <div
@@ -771,7 +771,7 @@
                             <div
                                 class="relative overflow-hidden w-full aspect-[4/3] rounded-xl">
                                 <img
-                                    src="./assets/img/portfolio/portfolio-5.jpg"
+                                    src="<?= base_url('./assets/img/portfolio/portfolio-5.jpg') ?>"
                                     alt="SEO Services"
                                     class="w-full h-full object-cover" />
                                 <div
@@ -813,7 +813,7 @@
                             <div
                                 class="relative overflow-hidden w-full aspect-[4/3] rounded-xl">
                                 <img
-                                    src="./assets/img/portfolio/portfolio-6.jpg"
+                                    src="<?= base_url('./assets/img/portfolio/portfolio-6.jpg') ?>"
                                     alt="Product Design"
                                     class="w-full h-full object-cover" />
                                 <div
