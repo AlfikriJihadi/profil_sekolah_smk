@@ -62,12 +62,12 @@
     <link rel="canonical" href="https://ranyeh24.github.io/inazuma-tailwind" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon/logosmk/web-app-manifest-192x192.png" />
-    <link rel="apple-touch-icon" sizes="512x512" href="./assets/favicon/logosmk/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/logosmk/favicon-96x96.png" />
-    <link rel="icon" type="image/x-icon" href="./assets/favicon/logosmk/favicon.ico" />
-    <link rel="icon" type="image/svg+xml" href="./assets/favicon/logosmk/favicon.svg" />
-    <link rel="manifest" href="./assets/favicon/logosmk/site.webmanifest" />
+    <link rel="icon" type="image/png" sizes="192x192" href="<?= base_url('assets/favicon/logosmk/web-app-manifest-192x192.png') ?>" />
+    <link rel="apple-touch-icon" sizes="512x512" href="<?= base_url('assets/favicon/logosmk/apple-touch-icon.png') ?>" />
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/logosmk/favicon-96x96.png" />
+    <link rel="icon" type="image/x-icon" href="<?= base_url('assets/favicon/logosmk/favicon.ico') ?>" />
+    <link rel="icon" type="image/svg+xml" href="<?= base_url('assets/favicon/logosmk/favicon.svg') ?>" />
+    <link rel="manifest" href="<?= base_url('assets/favicon/logosmk/site.webmanifest') ?>" />
     <link
         rel="mask-icon"
         href="./assets/favicon/safari-pinned-tab.svg"
