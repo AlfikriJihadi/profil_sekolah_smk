@@ -26,10 +26,13 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => 'localhost',
-        'username'     => 'root',
-        'password'     => '',
-        'database'     => 'ci4cb',
+        // 'hostname'     => 'localhost',
+        'hostname'     => 'sql100.infinityfree.com',
+        // 'username'     => 'root',
+        'username'     => 'ifo_40118200',
+        'password'     => 'Alfikri(123)',
+        // 'database'     => 'ci4cb',
+        'database'     => 'ifo_40118200_ci4cb',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
