@@ -10,6 +10,7 @@
     <meta name="apple-mobile-web-app-title" content="MyWebSite" />
     <link rel="manifest" href="/site.webmanifest" />
 
+
     <!-- Meta Tags -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -2268,33 +2269,50 @@
                     <div class="xl:col-10 mx-auto">
                         <div class="w-full xl:w-10/12 mx-auto">
                             <div class="row">
-                                <div class="col-6">
-                                    <div class="scroll-revealed py-5 px-6 rounded-xl shadow-card-1 bg-body-light-1 dark:bg-primary-dark-2 flex gap-6 hover:shadow-lg">
+                                <!-- Bagian NoTelp -->
+                                <div class="col-12 col-md-6 mb-4">
+                                    <div class="scroll-revealed py-5 px-6 rounded-xl shadow-card-1 
+                                bg-body-light-1 dark:bg-primary-dark-2 flex gap-6 hover:shadow-lg">
+                                        <i class="lni lni-phone w-[50px] h-[50px] inline-flex items-center 
+                                   justify-center rounded-lg text-[1.25rem] bg-primary text-primary-color flex-shrink-0"></i>
                                         <div>
-                                            <i class="lni lni-phone w-[50px] h-[50px] inline-flex items-center justify-center rounded-lg text-[1.25rem] bg-primary text-primary-color"></i>
-                                        </div>
-                                        <div>
-                                            <h4 class="text-[1.25rem] text-primary mb-3">Kontak</h4>
-                                            <p class="m-0">864893643486 || yourmail@gmail.com</p>
+                                            <h4 class="text-[1.25rem] text-primary mb-3">NoTelp</h4>
+                                            <p class="m-0">081338479877</p>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="col-6">
-                                    <div class="scroll-revealed py-5 px-6 rounded-xl shadow-card-1 bg-body-light-1 dark:bg-primary-dark-2 flex gap-6 hover:shadow-lg">
-                                        <div>
-                                            <i class="lni lni-map-marker w-[50px] h-[50px] inline-flex items-center justify-center rounded-lg text-[1.25rem] bg-primary text-primary-color"></i>
+                                <!-- Bagian Email -->
+                                <div class="col-12 col-md-6 mb-4">
+                                    <div class="scroll-revealed py-5 px-6 rounded-xl shadow-card-1 
+                                bg-body-light-1 dark:bg-primary-dark-2 flex gap-6 hover:shadow-lg">
+                                        <i class="lni lni-envelope w-[50px] h-[50px] inline-flex items-center 
+                                   justify-center rounded-lg text-[1.25rem] bg-primary text-primary-color flex-shrink-0"></i>
+                                        <div class="overflow-hidden">
+                                            <h4 class="text-[1.25rem] text-primary mb-3">Email</h4>
+                                            <p class="m-0 break-words">smkinformatikaalhilaalkamal@gmail.com</p>
                                         </div>
+                                    </div>
+                                </div>
+
+                                <!-- Bagian Alamat -->
+                                <div class="col-12 col-md-6 mb-4">
+                                    <div class="scroll-revealed py-5 px-6 rounded-xl shadow-card-1 
+                                bg-body-light-1 dark:bg-primary-dark-2 flex gap-6 hover:shadow-lg">
+                                        <i class="lni lni-map-marker w-[50px] h-[50px] inline-flex items-center 
+                                   justify-center rounded-lg text-[1.25rem] bg-primary text-primary-color flex-shrink-0"></i>
                                         <div>
                                             <h4 class="text-[1.25rem] text-primary mb-3">Alamat</h4>
                                             <p class="m-0">Kamal, Kairatu Barat, Seram Bagian Barat, Maluku, Indonesia</p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> <!-- End row -->
                         </div>
+                    </div>
+                </div>
 
-                        <!-- <div class="col-12 md:col-6 xl:col-4">
+                <!-- <div class="col-12 md:col-6 xl:col-4">
                                     <div class="scroll-revealed py-5 px-6 rounded-xl shadow-card-1 bg-body-light-1 dark:bg-primary-dark-2 flex gap-6 hover:shadow-lg">
                                         <div>
                                             <i class="lni lni-alarm-clock w-[50px] h-[50px] inline-flex items-center justify-center rounded-lg text-[1.25rem] bg-primary text-primary-color"></i>
@@ -2306,8 +2324,8 @@
                                         </div>
                                     </div>
                                 </div> -->
-                    </div>
-                </div>
+            </div>
+            </div>
             </div>
 
             <!-- <div class="col-12 xl:col-10">
